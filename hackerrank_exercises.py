@@ -54,6 +54,16 @@ print(type(dict_of_letters.items()))
 new_dict = dict(map(lambda x: (x, 0), unique_letters))
 new_dict
 # %%
-word = 'bafdce'
+word = 'baaffvdceegrr'
 new_dict = dict(map(lambda x: (x, 0), set(word)))
 new_dict.items()
+
+for char in word:
+    new_dict[char] += 1
+
+new_dict.items()
+sorted_dict = sorted(new_dict.items(), key = lambda x: (-x[1], x[0]))
+sorted_dict
+
+new_dict2 = {ch: 0 for ch in set(word)}
+new_dict2.items()
