@@ -1,0 +1,22 @@
+# Środowisko wirtualne Pythona
+.venv/
+venv/
+env/
+
+# Pliki cache Pythona
+__pycache__/
+*.pyc
+*.pyo
+
+# Dane i modele (często za duże)
+*.pt
+*.pth
+*.ckpt
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Pliki IDE
+.vscode/
+.idea/
