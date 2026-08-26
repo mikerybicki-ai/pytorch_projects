@@ -16,3 +16,5 @@ x = [2, 5, 1, 4, 6, 2, 0]
 
 res = mov_avg(x, 4)
 print(f"Moving avg is: {res}")
+
+
